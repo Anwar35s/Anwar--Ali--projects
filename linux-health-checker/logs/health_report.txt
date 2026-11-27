@@ -1,0 +1,32 @@
+ ====System health report==== 
+ System information
+Linux 71437ee1df5e 6.12.76-linuxkit #1 SMP Sun Mar  8 14:41:59 UTC 2026 aarch64 GNU/Linux
+ Date and Time 
+Fri Nov 27 11:30:56 UTC 2026
+ Disk Usage 
+Filesystem            Size  Used Avail Use% Mounted on
+overlay               224G   19G  194G   9% /
+tmpfs                  64M     0   64M   0% /dev
+shm                    64M     0   64M   0% /dev/shm
+/run/host_mark/Users  229G  221G  7.8G  97% /workspace
+/dev/vda1             224G   19G  194G   9% /etc/hosts
+tmpfs                 3.9G     0  3.9G   0% /proc/scsi
+tmpfs                 3.9G     0  3.9G   0% /sys/firmware
+ Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.5Gi       527Mi       6.0Mi       5.9Gi       6.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+ Hostname 
+71437ee1df5e
+ system uptime 
+ 11:30:56 up 3 days,  7:10,  0 users,  load average: 2.09, 2.08, 2.06
+ CPU usage 
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+ Top five processes by CPU usage 
+  PID COMMAND         %CPU
+    1 bash             0.0
+  119 health_check.sh  0.0
+  128 ps               0.0
+  129 head             0.0
+===== Disk Usage Alert =====
+WARNING: Disk usage is too high!
